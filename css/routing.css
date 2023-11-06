@@ -1,0 +1,59 @@
+.briteAndRoutbadding {
+    padding-top: 90px;
+}
+
+.briteAndRoutbadding:hover+.containerPS {
+    opacity: 1.3;
+    color: #ffffff;
+}
+.briteAndRoutbadding:hover+.container_cus {
+    opacity: 1.3;
+    color: #ffffff;
+}
+.container_cus{
+    width: 100%;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container_cus:hover{
+    opacity: 1.3;
+    color: #ffffff;
+}
+
+.container_cus1{
+  
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.container_cus1:hover{
+    opacity: 1.3;
+    color: #ffffff;
+}
+.briteAndRoutbadding1 {
+    padding-top: 90px;
+}
+.briteAndRoutbadding1:hover+.container_cus1 {
+    opacity: 1.3;
+    color: #ffffff;
+}
+.margincus{
+margin: 10px;
+}
+.navstcus a{
+    color: rgb(0, 0, 0) !important;
+    
+}
+.navstcus a:hover{
+    color: #ffffff !important;
+}
+.navstcus ul li ul li a{
+    color: rgb(0, 0, 0) !important;
+    }
+ .navstcus .aclink{
+    color: #ffffff !important;
+} 
+

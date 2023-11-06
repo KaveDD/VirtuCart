@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Splash Screen Example</title>
+    <style>
+        /* Styles for the splash screen */
+        .splash-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000000; /* Background color of the splash screen */
+            color: #fff; /* Text color on the splash screen */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* Ensure it's on top of everything */
+        }
+    </style>
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <img src="./img/logo2.png">
+    </div>
+
+    <!-- Main content -->
+    <div id="main-content" style="display: none;">
+        <h2>Welcome to Your Website</h2>
+        <p>This is the main content of your web page.</p>
+    </div>
+
+    <script>
+        // Simulate a delay for demonstration purposes
+        setTimeout(function() {
+            // Hide the splash screen and show the main content
+            document.querySelector('.splash-screen').style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+        }, 3000); // Change 3000 to your desired loading time in milliseconds
+    </script>
+</body>
+</html>
