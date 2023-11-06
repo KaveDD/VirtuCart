@@ -71,11 +71,7 @@ rg_btn2.addEventListener("click", function () {
         rgimg2.classList.add('imgRGrm');
         rgcontent2.classList.add('contentRGexpand');
 
-        rgcontenttext2.textContent = "This feature allows users to interact with the system by"
-            + " speaking commands, which is a huge step forward in offering"
-            + " a smooth and intuitive user experience.This capability can"
-            + " considerably improve usability for people who struggle with"
-            + " standard interfaces.";
+        rgcontenttext2.textContent = "Consumer data analysis and predictions are invaluable tools for supermarkets looking to stay ahead in today's competitive retail landscape. By harnessing the wealth of data generated through customer transactions and behaviors, supermarkets can gain deep insights into consumer preferences, shopping habits, and trends. This data-driven approach allows them to make informed decisions about product stocking, pricing, and marketing strategies. By employing advanced analytics and predictive modeling, supermarkets can anticipate customer needs, optimize inventory, and tailor promotions to individual preferences, ultimately providing a more personalized and satisfying shopping experience. In an era where data is king, supermarkets that leverage consumer data analysis and predictions can thrive in an ever-evolving market.";
     } else {
         rg_btn2.textContent = "Read More";
 
@@ -83,7 +79,7 @@ rg_btn2.addEventListener("click", function () {
         rgcontent2.classList.remove('contentRGexpand');
         rgcontent2.classList.add('cardRG_content');
 
-        rgcontenttext2.textContent = " This feature allows users to interact with the system by speaking...";
+        rgcontenttext2.textContent = " Consumer data analysis and predictions are invaluable tools for...";
     }
 });
 
@@ -99,12 +95,7 @@ rg_btn3.addEventListener("click", function () {
         rgimg3.classList.add('imgRGrm');
         rgcontent3.classList.add('contentRGexpand');
 
-        rgcontenttext3.textContent = "Studies 1 and 2 can identify the complete text material."
-            + "This implies they can identify and analyze text inside"
-            + " photos in a thorough manner. This functionality is important"
-            + " for jobs such as reading documents, signage, or other"
-            + " text-basedinformation, as it gives users complete access"
-            + " to textual content in their surroundings.";
+        rgcontenttext3.textContent = "A smart virtual assistant for supermarkets is a game-changing technology that enhances the shopping experience for both customers and retailers. By integrating advanced artificial intelligence and voice recognition, these virtual assistants provide real-time information, answer customer queries, and offer personalized shopping recommendations. Shoppers can effortlessly locate products, access promotions, and even get assistance with meal planning and dietary choices. For supermarkets, smart virtual assistants streamline operations, improve customer service, and gather valuable data to optimize their offerings. It's a win-win solution that brings convenience and efficiency to the shopping journey while driving growth and customer loyalty for supermarkets.";
     } else {
         rg_btn3.textContent = "Read More";
 
@@ -112,7 +103,7 @@ rg_btn3.addEventListener("click", function () {
         rgcontent3.classList.remove('contentRGexpand');
         rgcontent3.classList.add('cardRG_content');
 
-        rgcontenttext3.textContent = "Studies 1 and 2 can identify the complete text material. This implies...";
+        rgcontenttext3.textContent = "A smart virtual assistant for supermarkets is a game-changing technology...";
     }
 });
 
